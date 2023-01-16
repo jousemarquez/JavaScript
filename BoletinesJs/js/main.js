@@ -1,6 +1,6 @@
+/*
 
-
-/*//Alerta en pop-up.
+//Alerta en pop-up.
 alert("hola mundo");
 
 //Declaración de Variables.
@@ -40,8 +40,8 @@ let limiteInferior = 5;
 let limiteSuperior = 10;
 let aleatorioRedondeadoHaciaAbajo = Math.floor(Math.random() * (limiteSuperior-limiteInferior+1)+limiteInferior); //Numero aleatorio entre limiteInferior y limiteSuperior
 console.log(aleatorioRedondeadoHaciaAbajo);
-x++; //primero muestra por pantalla y luego incrementa.
-++x; //primero incrementa y luego muestra por pantalla.
+x++; // Al ser JavaScript un lenguaje interpretado, primero muestra por pantalla y luego incrementa...
+++x; // ... por lo que primero incrementa y luego muestra por pantalla.
 x+=5; //incrementar en 5 unidades
 
 //Variables tipo String.
@@ -57,7 +57,7 @@ console.log(helloWorld3);
 let longitud = helloWorld.length;
 console.log("La longitud de 'Hola Mundo' es: ", longitud);
 console.log("En que indice se encuentra 'Mundo' en la cadena 'Hola Mundo': " + helloWorld.indexOf());
-console.log("Contiene la cadena 'Hola Mundo' la subcadena 'Mundo'?: " + helloWorld.includes("Mundo"));
+console.log("Contiene la cadena 'Hola Mundo' la subcadena 'Mundo'?: " + helloWorld.includes("Mundo")); // En Java la función es contains()
 console.log("Voy a concatenar esta misma cadena con la variable helloWorld ".concat(helloWorld));
 console.log("                Para quitar todos los espacios en blanco del inicio y el final           ".trim());
 console.log("Reemplazar primera ocurrencia de o por una a: ", helloWorld.replace('o','a'));
@@ -176,8 +176,10 @@ function ocultar() {
     //div.textContent = "";
     div.innerHTML = ``;
 }
-*/
+
 // //
+
+*/
 
 // Ejercicio 1
 
