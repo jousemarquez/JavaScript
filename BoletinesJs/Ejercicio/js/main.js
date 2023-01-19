@@ -17,11 +17,11 @@ titulo.className += "letraRoja";
 
 /*5- Seleccionar el div contenedor de cartas y almacenarlo en una variable constante */
 
-const contenedor = document.querySelector("#contenedorCartas");
+const contenedorCartas = document.querySelector("#contenedorCartas");
 
 /*6- Añadir al innerHTML del elemento anterior un div con las clases "carta" y "fondoRojo" */
 
-contenedor.innerHTML += `<div class="carta fondoRojo"></div>`;
+contenedorCartas.innerHTML += `<div class="carta fondoRojo"></div>`;
 
 /*7- Seleccionar el div cuya clase sea "carta fondoRojo" y almacenarlo en una variable constante*/
 
@@ -29,24 +29,24 @@ const cartaFondoRojo = document.querySelector(".carta.fondoRojo");
 
 /*8- Añadir al innerHTML del elemento anterior un <p> en el que aparezca escrito "Esto es el contenido"*/
 
-cartaFondoRojo.innerHTML = `<p>Esto es el contenido</p>`;
+cartaFondoRojo.innerHTML += `<p>Esto es el contenido</p>`;
 
 /*9- Posicionaros en el elemento contenedorCartas y mostrarme por consola los siguientes elementos:*/
 
 /* 1) Su primer hijo */
-console.log(contenedor.firstElementChild);
+console.log(contenedorCartas.firstElementChild);
 /* 2) Su tercer hijo */
-console.log(contenedor.children[2]);
+console.log(contenedorCartas.children[2]);
 /* 3) El siguiente hermano del tercer hijo */
-console.log(contenedor.children[2].nextElementSibling);
+console.log(contenedorCartas.children[2].nextElementSibling);
 /* 4) Su último hijo */
-console.log(contenedor.lastChild);
+console.log(contenedorCartas.lastChild);
 /* 5) Su padre */
-console.log(contenedor.ParentElement);
+console.log(contenedorCartas.parentNode);
 /* 6) El padre del padre */
-console.log(contenedor.ParentElement.ParentElement);
+/* console.log(contenedorCartas.ParentElement.ParentElement); */
+console.log(contenedorCartas.parentNode.parentNode);
 /* 7) Su hermano anterior */
-console.log(contenedor.previousElementSibling);
+console.log(contenedorCartas.previousElementSibling);
 /* 8) Las clases del último hijo*/
-console.log(contenedor.lastChild.className);
-
+console.log(contenedorCartas.lastChild.className);
