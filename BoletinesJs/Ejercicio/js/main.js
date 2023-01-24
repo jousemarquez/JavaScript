@@ -32,21 +32,29 @@ const cartaFondoRojo = document.querySelector(".carta.fondoRojo");
 cartaFondoRojo.innerHTML += `<p>Esto es el contenido</p>`;
 
 /*9- Posicionaros en el elemento contenedorCartas y mostrarme por consola los siguientes elementos:*/
+const elementoPadre = document.querySelector("#contenedorCartas");
 
 /* 1) Su primer hijo */
-console.log(contenedorCartas.firstElementChild);
+console.log(elementoPadre.firstElementChild);
+console.log("-----------------------------")
 /* 2) Su tercer hijo */
-console.log(contenedorCartas.children[2]);
+console.log(elementoPadre.children[2]);
+console.log("-----------------------------")
 /* 3) El siguiente hermano del tercer hijo */
-console.log(contenedorCartas.children[2].nextElementSibling);
+console.log(elementoPadre.children[2].nextElementSibling);
+console.log("-----------------------------")
 /* 4) Su último hijo */
-console.log(contenedorCartas.lastChild);
+console.log(elementoPadre.lastElementChild);
+console.log("-----------------------------")
 /* 5) Su padre */
-console.log(contenedorCartas.parentNode);
+console.log(elementoPadre.parentElement);
+console.log("-----------------------------")
 /* 6) El padre del padre */
-/* console.log(contenedorCartas.ParentElement.ParentElement); */
-console.log(contenedorCartas.parentNode.parentNode);
+console.log(elementoPadre.parentElement.parentElement);
+console.log("-----------------------------")
 /* 7) Su hermano anterior */
-console.log(contenedorCartas.previousElementSibling);
+console.log(elementoPadre.previousElementSibling);
+console.log("-----------------------------")
 /* 8) Las clases del último hijo*/
-console.log(contenedorCartas.lastChild.className);
+console.log(elementoPadre.lastElementChild.className);
+console.log("-----------------------------")
