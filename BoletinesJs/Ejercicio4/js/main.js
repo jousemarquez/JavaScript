@@ -14,7 +14,7 @@ while (posicion < array.length) {
 }
 
 // 2) Recorrer de 0 a la longitud del array y hacer la petición de variable + i del localstorage
-posicion = 0;
+let posicion = 0;
 while (posicion < array.length) {
     console.log(JSON.parse(localStorage.getItem(`variable${posicion}`)));
     posicion++;
@@ -23,7 +23,7 @@ while (posicion < array.length) {
 // 3) Crear un div por cada variable e insertar el valor de dicha variable en el div
 const body = document.querySelector("BODY");
 
-posicion = 0;
+let posicion = 0;
 while (posicion < array.length) {
     const div = document.createElement("DIV");
     div.innerHTML = JSON.parse(localStorage.getItem(`variable${posicion}`));
