@@ -20,7 +20,6 @@ for (item in array) {
 // Se recorre el array para extraer los items del LocalStorage
 for (item in array) {
     console.log(localStorage.getItem("variable" + item));
-
 }
 
 // 3) Crear un div por cada variable e insertar el valor de dicha variable en el div
