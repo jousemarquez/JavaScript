@@ -44,3 +44,4 @@ let x = imprimirSaludosNombreString(nombre) + " " + edad;
 // En las arrow function, si no se indica el return, el resultado se convierte en return
 
 const resta = (n1=0, n2=0) => n1-n2;
+
