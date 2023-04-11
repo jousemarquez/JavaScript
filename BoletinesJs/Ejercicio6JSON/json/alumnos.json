@@ -1,0 +1,46 @@
+[
+{
+    "nombre": "Maria",
+    "apellido": "Sisamon",
+    "dni": "12345678A",
+    "notaProg": 9,
+    "notaSist": 8,
+    "notaMarc": 10,
+    "notaBbdd": 7,
+    "notaEntornos": 6,
+    "notaFol": 5
+},
+{
+    "nombre": "Eduardo",
+    "apellido": "Pimentel",
+    "dni": "12345678B",
+    "notaProg": 9,
+    "notaSist": 10,
+    "notaMarc": 7,
+    "notaBbdd": 8,
+    "notaEntornos": 9,
+    "notaFol": 8
+},
+{
+    "nombre": "Pablo",
+    "apellido": "Lopez",
+    "dni": "12345678C",
+    "notaProg": 6,
+    "notaSist": 7,
+    "notaMarc": 9,
+    "notaBbdd": 5,
+    "notaEntornos": 6,
+    "notaFol": 8
+},
+{
+    "nombre": "Rafael",
+    "apellido": "Mancina",
+    "dni": "12345670A",
+    "notaProg": 7,
+    "notaSist": 6,
+    "notaMarc": 5,
+    "notaBbdd": 9,
+    "notaEntornos": 8,
+    "notaFol": 6
+}
+]

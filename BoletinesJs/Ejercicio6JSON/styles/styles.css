@@ -1,0 +1,45 @@
+:root {
+    --white: white;
+    --black: #2f2e2e;
+    --gray: #727272;
+    --background-linear: repeating-linear-gradient(-45deg, #6a6a6a 0, #6a6a6a 2px, #727272 2px, #727272 11px);
+  }
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,700);
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--gray);
+    background-image: var(--background-linear);
+    background-size: 16px 16px;
+    min-height: 100vh;
+    color: var(--white);
+    gap: 15px;
+}
+
+div{
+    padding: 1rem;
+    border: 1px solid var(--white);
+    background-color: var(--black);
+}
+
+h2{
+    font-size: 2.2rem;
+    margin: 0;
+}
+
+h3{
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+p{
+    font-size: 1rem;
+}
