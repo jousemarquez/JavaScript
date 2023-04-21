@@ -3,7 +3,6 @@ Finalmente, consumir con fetch el json adjunto y por cada alumno, instanciar un 
 con los atributos que aparecen en el json y hacer un card en el html en el que se muestren sus atributos y su saludo.
 */
 
-
 import { Alumno } from "./Alumno.js";
 
 const cardFragment = document.createDocumentFragment();
